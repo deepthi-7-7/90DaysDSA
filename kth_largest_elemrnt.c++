@@ -31,3 +31,16 @@ int findkthelement(vector<int>&nums,int k)
 //solution2:
 
 //as in the question tehy said not to use the sorting method 
+//the time complexity is o(klogn)
+
+int findtheelement(vector<int>&nums,intk)
+{
+ priority_queue<int>pq(nums.begin(),nums.end());
+ for(int i=1;i<k;i++)
+ {
+  pq.pop();
+ }
+return pq.top();
+}
+
+
