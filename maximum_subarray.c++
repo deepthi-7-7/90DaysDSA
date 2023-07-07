@@ -69,7 +69,7 @@ int maxsubarray(vector<int>&nums)
 //the timecomplexity is o(n) as only one loop
 
 //this approach is also called as kadens algorithm
-// in thi sfirst we take teh amximum as the 1st value of the array
+// in this first we take the amximum as the 1st value of the array
 // then we intialise sum as 0
 // then we loop through the array and when we get the sum as the previous sum + the new value of the nums
 //if the newsum<0 then make it equal to 0 as we only looking for maximum value 
